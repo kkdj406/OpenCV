@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         mOpenCvCameraView.setCvCameraViewListener(this);
         mOpenCvCameraView.setCameraIndex(0); // front-camera(1),  back-camera(0)
         mLoaderCallback.onManagerConnected(LoaderCallbackInterface.SUCCESS);
+        System.out.println("test2");
     }
 
     @Override
